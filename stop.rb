@@ -4,4 +4,4 @@ task :stop do
     pid = File.read(pid_file).to_i
     Process.kill 9, pid
     File.delete pid_file
-end
+endls
